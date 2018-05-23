@@ -18,6 +18,9 @@ puts game.play(:scissors, :paper)
 puts "Paper vs Scissors:"
 puts game.play(:paper, :scissors)
 puts "Tie games:"
+puts "Rock vs Rock:"
 puts game.play(:rock, :rock)
+puts "Paper vs Paper:"
 puts game.play(:paper, :paper)
+puts "Scissors vs Scissors"
 puts game.play(:scissors, :scissors)
